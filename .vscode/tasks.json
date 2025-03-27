@@ -4,7 +4,7 @@
       {
         "label": "build STM32MP1 firmware",
         "type": "shell",
-        "command": "make -j8 MAKE_DIR=RepRapFirmware/makefiles/STM32F4 CORE=STM32 MCU=STM32F4 NETWORK=SBC OUTPUT_NAME=base_stm32f4 all",
+        "command": "make -j8 MAKE_DIR=RepRapFirmware/makefiles/STM32MP157 CORE=STM32 MCU=STM32F4 NETWORK=SBC OUTPUT_NAME=rrf_mp157 all",
         "osx": {
           "options": {
             "env": {
