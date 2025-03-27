@@ -1,0 +1,40 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "CoreN2G",
+			"path": "CoreN2G"
+		},
+		{
+			"name": "RRFLibraries",
+			"path": "RRFLibraries"
+		},
+		{
+			"name": "CANlib",
+			"path": "CANlib"
+		},
+		{
+			"name": "Duet3Expansion",
+			"path": "Duet3Expansion"
+		},
+		{
+			"name": "FreeRTOS",
+			"path": "FreeRTOS"
+		},
+		{
+			"name": "WiFiSocketServerRTOS",
+			"path": "WiFiSocketServerRTOS"
+		},
+		{
+			"name": "IAP",
+			"path": "IAP"
+		},
+		{
+			"name": "RepRapFirmware",
+			"path": "RepRapFirmware"
+		}
+	],
+	"settings": {}
+}

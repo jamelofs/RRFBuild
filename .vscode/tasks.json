@@ -2,6 +2,37 @@
     "version": "2.0.0",
     "tasks": [
       {
+        "label": "build STM32MP1 firmware",
+        "type": "shell",
+        "command": "make -j8 MAKE_DIR=RepRapFirmware/makefiles/STM32F4 CORE=STM32 MCU=STM32F4 NETWORK=SBC OUTPUT_NAME=base_stm32f4 all",
+        "osx": {
+          "options": {
+            "env": {
+              "PATH": "${env:PATH}"
+            }
+          }
+        },
+        "linux": {
+          "options": {
+            "env": {
+              "PATH": "${env:PATH}"
+            }
+          }
+        },
+        "windows": {
+          "options": {
+            "env": {
+              "PATH": "${env:PATH}"
+            }
+          }
+        },
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": "$gcc"
+      },
+      {
         "label": "build STMF4 COMBINED firmware",
         "type": "shell",
         "command": "make -j8 MAKE_DIR=RepRapFirmware/makefiles/STM32F4 CORE=STM32 MCU=STM32F4 NETWORK=COMBINED OUTPUT_NAME=base_stm32f4 all",
