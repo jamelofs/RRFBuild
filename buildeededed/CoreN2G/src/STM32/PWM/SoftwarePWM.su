@@ -1,0 +1,10 @@
+CoreN2G/src/STM32/PWM/SoftwarePWM.cpp:199:6:void SPWM_Handler(HardwareTimer*)	0	static
+CoreN2G/src/STM32/PWM/SoftwarePWM.cpp:60:13:void updateActive()	8	static
+CoreN2G/src/STM32/PWM/SoftwarePWM.cpp:365:6:virtual void SoftwarePWM::free()	8	static
+CoreN2G/src/STM32/PWM/SoftwarePWM.cpp:438:6:virtual void SoftwarePWM::appendStatus(const StringRef&)	32	static
+CoreN2G/src/STM32/PWM/SoftwarePWM.cpp:204:6:void TIM7_IRQHandler()	48	static
+CoreN2G/src/STM32/PWM/SoftwarePWM.cpp:361:1:SoftwarePWM::SoftwarePWM()	8	static
+CoreN2G/src/STM32/PWM/SoftwarePWM.cpp:390:6:void SoftwarePWM::setValue(Pin, float)	32	static
+CoreN2G/src/STM32/PWM/SoftwarePWM.cpp:374:16:static HybridPWMBase* SoftwarePWM::allocate(Pin, uint32_t, float)	40	static
+CoreN2G/src/STM32/PWM/SoftwarePWM.cpp:433:6:virtual void SoftwarePWM::setValue(float)	0	static
+CoreN2G/src/STM32/PWM/SoftwarePWM.cpp:467:1:cpp)	16	static

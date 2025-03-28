@@ -1,0 +1,7 @@
+RepRapFirmware/src/GCodes/GCodeException.cpp:15:1:GCodeException::GCodeException(const GCodeBuffer*, int, const char*)	16	static
+RepRapFirmware/src/GCodes/GCodeException.cpp:46:1:GCodeException::GCodeException(const GCodeBuffer*, int, const char*, uint32_t)	8	static
+RepRapFirmware/src/GCodes/GCodeException.cpp:51:1:GCodeException::GCodeException(const GCodeBuffer*, int, const char*, const char*)	16	static
+RepRapFirmware/src/GCodes/GCodeException.cpp:57:6:void GCodeException::GetMessage(const StringRef&, const GCodeBuffer*) const	24	static
+RepRapFirmware/src/GCodes/GCodeException.cpp:134:19:void ThrowGCodeException(const char*)	8	static
+RepRapFirmware/src/GCodes/GCodeException.cpp:139:19:void ThrowGCodeException(const char*, uint32_t)	16	static
+RepRapFirmware/src/GCodes/GCodeException.cpp:142:1:cpp)	0	static

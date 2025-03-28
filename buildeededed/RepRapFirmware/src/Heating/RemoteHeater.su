@@ -1,0 +1,31 @@
+./RepRapFirmware/src/ObjectModel/ObjectModel.h:324:35:virtual ReadWriteLock* ObjectModel::GetObjectLock(unsigned int) const	0	static
+RepRapFirmware/src/Heating/RemoteHeater.h:33:7:virtual void RemoteHeater::SetExtrusionFeedForward(float)	0	static
+RepRapFirmware/src/Heating/RemoteHeater.h:34:7:virtual bool RemoteHeater::IsLocal() const	0	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:197:6:virtual void RemoteHeater::ResetHeater()	0	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:287:7:virtual float RemoteHeater::GetAccumulator() const	0	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:213:13:virtual GCodeResult RemoteHeater::SetPwmFrequency(PwmFrequency, const StringRef&)	96	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:221:13:virtual GCodeResult RemoteHeater::ReportDetails(const StringRef&) const	96	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:32:1:RemoteHeater::~RemoteHeater()	104	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:32:1:virtual RemoteHeater::~RemoteHeater()	8	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:281:7:virtual float RemoteHeater::GetAveragePWM() const	8	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:202:13:virtual GCodeResult RemoteHeater::ConfigurePortAndSensor(const char*, PwmFrequency, unsigned int, const StringRef&)	104	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:331:6:virtual void RemoteHeater::FeedForwardAdjustment(float, float)	136	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:525:13:virtual GCodeResult RemoteHeater::TuningCommand(const CanMessageHeaterTuningCommand&, const StringRef&)	8	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:419:13:virtual GCodeResult RemoteHeater::UpdateFaultDetectionParameters(const StringRef&)	24	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:438:13:virtual GCodeResult RemoteHeater::UpdateHeaterMonitors(const StringRef&)	24	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:404:13:virtual GCodeResult RemoteHeater::UpdateModel(const StringRef&)	24	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:370:12:virtual HeaterMode RemoteHeater::GetMode() const	8	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:474:6:virtual void RemoteHeater::UpdateHeaterTuning(CanAddress, const CanMessageHeaterTuningReport&)	16	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:462:6:virtual void RemoteHeater::UpdateRemoteStatus(CanAddress, const CanHeaterReport&)	8	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:270:7:virtual float RemoteHeater::GetTemperature() const	16	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:27:1:RemoteHeater::RemoteHeater(unsigned int, CanAddress)	16	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:491:13:GCodeResult RemoteHeater::SendTuningCommand(const StringRef&, bool)	32	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:293:13:virtual GCodeResult RemoteHeater::StartAutoTune(const StringRef&, bool, float)	24	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:511:6:void RemoteHeater::StopTuning()	136	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:41:6:virtual void RemoteHeater::Spin()	128	static
+CANlib/src/CanMessageBuffer.h:73:23:T* CanMessageBuffer::SetupRequestMessage(CanRequestId, CanAddress, CanAddress) [with T = CanMessageSetHeaterTemperature]	0	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:252:13:virtual GCodeResult RemoteHeater::ResetFault(const StringRef&)	24	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:354:6:virtual void RemoteHeater::Suspend(bool)	40	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:378:13:virtual GCodeResult RemoteHeater::SwitchOn(const StringRef&)	24	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:228:6:virtual void RemoteHeater::SwitchOff()	144	static
+RepRapFirmware/src/Heating/RemoteHeater.cpp:529:1:cpp)	0	static

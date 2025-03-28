@@ -1,0 +1,33 @@
+./RepRapFirmware/src/ObjectModel/ObjectModel.h:319:54:virtual const ObjectModelArrayTableEntry* ObjectModel::GetObjectModelArrayEntry(unsigned int) const	0	static
+./RepRapFirmware/src/ObjectModel/ObjectModel.h:324:35:virtual ReadWriteLock* ObjectModel::GetObjectLock(unsigned int) const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:117:15:virtual bool Kinematics::SupportsAutoCalibration() const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:121:15:virtual bool Kinematics::DoAutoCalibration(MovementSystemNumber, size_t, const RandomProbePointSet&, const StringRef&)	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:126:15:virtual void Kinematics::SetCalibrationDefaults()	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:131:15:virtual bool Kinematics::WriteCalibrationParameters(FileStore*) const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:136:16:virtual float Kinematics::GetTiltCorrection(size_t) const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:151:21:virtual AxesBitmap Kinematics::AxesToHomeBeforeProbing() const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:157:21:virtual MotionType Kinematics::GetMotionType(size_t) const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:186:15:virtual bool Kinematics::WriteResumeSettings(FileStore*) const	0	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.h:28:13:virtual HomingMode PolarKinematics::GetHomingMode() const	0	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:36:1:virtual const ObjectModelClassDescriptor* PolarKinematics::GetObjectModelClassDescriptor() const	0	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:53:13:virtual const char* PolarKinematics::GetName(bool) const	0	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:216:6:virtual void PolarKinematics::GetAssumedInitialPosition(size_t, float*) const	0	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:225:12:virtual AxesBitmap PolarKinematics::AxesAssumedHomed(AxesBitmap) const	0	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:236:12:virtual AxesBitmap PolarKinematics::MustBeHomedAxes(AxesBitmap, bool) const	0	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:271:6:virtual bool PolarKinematics::QueryTerminateHomingMove(size_t) const	0	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:333:12:virtual AxesBitmap PolarKinematics::GetLinearAxes() const	0	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.h:15:7:PolarKinematics::~PolarKinematics()	0	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:128:6:virtual bool PolarKinematics::CartesianToMotorSteps(const float*, const float*, size_t, size_t, int32_t*, bool) const	32	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:146:6:virtual void PolarKinematics::MotorStepsToCartesian(const int32_t*, const float*, size_t, size_t, float*) const	32	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:161:6:virtual bool PolarKinematics::IsReachable(float*, AxesBitmap) const	0	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:177:21:virtual LimitPositionResult PolarKinematics::LimitPosition(float*, const float*, size_t, AxesBitmap, bool, bool) const	24	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:299:6:virtual void PolarKinematics::LimitSpeedAndAcceleration(DDA&, const float*, size_t, bool) const	24	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:326:6:virtual bool PolarKinematics::IsContinuousRotationAxis(size_t) const	0	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.h:15:7:virtual PolarKinematics::~PolarKinematics()	8	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:278:6:virtual void PolarKinematics::OnHomingSwitchTriggered(size_t, bool, const float*, DDA&) const	16	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:249:12:virtual AxesBitmap PolarKinematics::GetHomingFileName(AxesBitmap, AxesBitmap, size_t, const StringRef&) const	24	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:31:12:static ExpressionValue PolarKinematics::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	8	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:41:1:PolarKinematics::PolarKinematics()	8	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:339:6:void PolarKinematics::Recalc()	0	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:65:6:virtual bool PolarKinematics::Configure(unsigned int, GCodeBuffer&, const StringRef&, bool&)	80	static
+RepRapFirmware/src/Movement/Kinematics/PolarKinematics.cpp:343:1:cpp)	0	static

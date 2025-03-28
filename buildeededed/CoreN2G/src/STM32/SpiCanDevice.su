@@ -1,0 +1,27 @@
+CoreN2G/src/STM32/SpiCanDevice.cpp:42:6:void CanDevice::CanStats::Clear()	0	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:47:6:bool CanDevice::ChangeMode(CAN_OPERATION_MODE)	16	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:66:23:static CanDevice* CanDevice::Init(unsigned int, unsigned int, const Config&, uint32_t*, const CanTiming&, TxEventCallbackFunction)	56	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:233:6:void CanDevice::DoHardwareInit()	0	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:239:6:void CanDevice::SetExtendedIdMask(uint32_t)	0	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:244:6:void CanDevice::DeInit()	0	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:249:6:void CanDevice::Enable()	8	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:256:6:void CanDevice::Disable()	8	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:280:6:void CanDevice::CheckBusStatus(uint32_t)	16	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:352:6:void CanDevice::PollTxEventFifo(TxEventCallbackFunction)	32	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:381:10:uint16_t CanDevice::ReadTimeStampCounter()	32	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:402:10:uint32_t CanDevice::GetErrorRegister() const	0	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:412:6:bool CanDevice::IsSpaceAvailable(TxBufferNumber, uint32_t)	32	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:440:6:bool CanDevice::AbortMessage(TxBufferNumber)	24	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:510:10:uint32_t CanDevice::SendMessage(TxBufferNumber, uint32_t, CanMessageBuffer*)	48	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:558:6:void CanDevice::CopyHeader(CanMessageBuffer*, CAN_RX_MSGOBJ*)	8	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:570:6:bool CanDevice::ReceiveMessage(RxBufferNumber, uint32_t, CanMessageBuffer*)	56	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:617:6:bool CanDevice::IsMessageAvailable(RxBufferNumber)	0	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:623:6:void CanDevice::DisableShortFilterElement(unsigned int)	0	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:629:6:void CanDevice::SetShortFilterElement(unsigned int, RxBufferNumber, uint32_t, uint32_t)	0	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:635:6:void CanDevice::DisableExtendedFilterElement(unsigned int)	0	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:641:6:void CanDevice::SetExtendedFilterElement(unsigned int, RxBufferNumber, uint32_t, uint32_t)	32	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:664:6:void CanDevice::GetLocalCanTiming(CanTiming&)	0	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:668:6:void CanDevice::SetLocalCanTiming(const CanTiming&)	0	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:672:6:void CanDevice::UpdateLocalCanTiming(const CanTiming&)	0	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:677:6:void CanDevice::GetAndClearStats(CanStats&)	24	static
+CoreN2G/src/STM32/SpiCanDevice.cpp:713:1:cpp)	0	static

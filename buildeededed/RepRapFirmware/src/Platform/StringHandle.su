@@ -1,0 +1,13 @@
+RepRapFirmware/src/Platform/StringHandle.cpp:63:6:void StringHandle::InternalAssign(const char*, size_t)	24	static
+RepRapFirmware/src/Platform/StringHandle.cpp:15:1:StringHandle::StringHandle(const char*, size_t)	16	static
+RepRapFirmware/src/Platform/StringHandle.cpp:12:1:StringHandle::StringHandle(const char*)	16	static
+RepRapFirmware/src/Platform/StringHandle.cpp:72:6:void StringHandle::Delete()	8	static
+RepRapFirmware/src/Platform/StringHandle.cpp:51:6:void StringHandle::Assign(const char*)	16	static
+RepRapFirmware/src/Platform/StringHandle.cpp:82:21:const StringHandle& StringHandle::IncreaseRefCount() const	0	static
+RepRapFirmware/src/Platform/StringHandle.cpp:91:31:ReadLockedPointer<const char> StringHandle::Get() const	16	static
+RepRapFirmware/src/Platform/StringHandle.cpp:107:8:size_t StringHandle::GetLength() const	16	static
+RepRapFirmware/src/Platform/StringHandle.cpp:125:1:AutoStringHandle::AutoStringHandle(const AutoStringHandle&)	8	static
+RepRapFirmware/src/Platform/StringHandle.cpp:131:1:AutoStringHandle::AutoStringHandle(AutoStringHandle&&)	0	static
+RepRapFirmware/src/Platform/StringHandle.cpp:137:19:AutoStringHandle& AutoStringHandle::operator=(const AutoStringHandle&)	16	static
+RepRapFirmware/src/Platform/StringHandle.cpp:148:1:AutoStringHandle::~AutoStringHandle()	8	static
+RepRapFirmware/src/Platform/StringHandle.cpp:151:1:cpp)	0	static

@@ -1,0 +1,11 @@
+RepRapFirmware/src/Platform/Heap.cpp:148:6:void Heap::AdjustHandles(char*, char*, size_t, unsigned int)	20	static
+RepRapFirmware/src/Platform/Heap.cpp:71:6:void Heap::GarbageCollectInternal()	40	static
+RepRapFirmware/src/Platform/Heap.cpp:65:6:void Heap::GarbageCollect()	8	static
+RepRapFirmware/src/Platform/Heap.cpp:168:6:bool Heap::CheckIntegrity(const StringRef&)	24	static
+RepRapFirmware/src/Platform/Heap.cpp:246:18:Heap::IndexSlot* Heap::AllocateHandle()	16	static
+RepRapFirmware/src/Platform/Heap.cpp:289:21:Heap::StorageSpace* Heap::AllocateSpace(size_t)	16	static
+RepRapFirmware/src/Platform/Heap.cpp:332:6:void Heap::CheckSlotGood(IndexSlot*)	8	static
+RepRapFirmware/src/Platform/Heap.cpp:348:6:void Heap::DeleteSlot(IndexSlot*)	8	static
+./RRFLibraries/src/General/String.h:107:26:) [with unsigned int Len = 256]	20	static
+RepRapFirmware/src/Platform/Heap.cpp:365:6:void Heap::Diagnostics(MessageType, Platform&)	312	static
+RepRapFirmware/src/Platform/Heap.cpp:376:1:cpp)	0	static

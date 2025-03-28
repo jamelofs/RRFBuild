@@ -1,0 +1,16 @@
+./RepRapFirmware/src/ObjectModel/ObjectModel.h:319:54:virtual const ObjectModelArrayTableEntry* ObjectModel::GetObjectModelArrayEntry(unsigned int) const	0	static
+./RepRapFirmware/src/ObjectModel/ObjectModel.h:324:35:virtual ReadWriteLock* ObjectModel::GetObjectLock(unsigned int) const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:117:15:virtual bool Kinematics::SupportsAutoCalibration() const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:121:15:virtual bool Kinematics::DoAutoCalibration(MovementSystemNumber, size_t, const RandomProbePointSet&, const StringRef&)	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:126:15:virtual void Kinematics::SetCalibrationDefaults()	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:131:15:virtual bool Kinematics::WriteCalibrationParameters(FileStore*) const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:136:16:virtual float Kinematics::GetTiltCorrection(size_t) const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:151:21:virtual AxesBitmap Kinematics::AxesToHomeBeforeProbing() const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:157:21:virtual MotionType Kinematics::GetMotionType(size_t) const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:178:21:virtual AxesBitmap Kinematics::AxesAssumedHomed(AxesBitmap) const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:182:21:virtual AxesBitmap Kinematics::MustBeHomedAxes(AxesBitmap, bool) const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:186:15:virtual bool Kinematics::WriteResumeSettings(FileStore*) const	0	static
+RepRapFirmware/src/Movement/Kinematics/RoundBedKinematics.cpp:32:12:virtual AxesBitmap RoundBedKinematics::GetLinearAxes() const	0	static
+RepRapFirmware/src/Movement/Kinematics/RoundBedKinematics.cpp:12:1:RoundBedKinematics::RoundBedKinematics(KinematicsType, SegmentationType)	8	static
+RepRapFirmware/src/Movement/Kinematics/RoundBedKinematics.cpp:35:1:cpp)	0	static
+RepRapFirmware/src/Movement/Kinematics/RoundBedKinematics.cpp:19:6:virtual bool RoundBedKinematics::IsReachable(float*, AxesBitmap) const	0	static

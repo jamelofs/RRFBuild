@@ -1,0 +1,15 @@
+RepRapFirmware/src/Movement/StepTimer.cpp:56:6:static void StepTimer::Init()	8	static
+RepRapFirmware/src/Movement/StepTimer.cpp:208:6:static bool StepTimer::ScheduleTimerInterrupt(uint32_t)	0	static
+RepRapFirmware/src/Movement/StepTimer.cpp:236:6:static void StepTimer::DisableTimerInterrupt()	0	static
+RepRapFirmware/src/Movement/StepTimer.cpp:249:17:static bool StepTimer::IsSynced()	16	static
+RepRapFirmware/src/Movement/StepTimer.cpp:264:17:static void StepTimer::ProcessTimeSyncMessage(const CanMessageTimeSync&, size_t, uint16_t)	40	static
+RepRapFirmware/src/Movement/StepTimer.cpp:404:6:void TIM5_IRQHandler()	24	static
+RepRapFirmware/src/Movement/StepTimer.cpp:434:1:StepTimer::StepTimer()	0	static
+RepRapFirmware/src/Movement/StepTimer.cpp:439:6:void StepTimer::SetCallback(TimerCallbackFunction, CallbackParameter)	0	static
+RepRapFirmware/src/Movement/StepTimer.cpp:452:6:bool StepTimer::ScheduleCallbackFromIsr()	16	static
+RepRapFirmware/src/Movement/StepTimer.cpp:446:6:bool StepTimer::ScheduleCallbackFromIsr(Ticks)	0	static
+RepRapFirmware/src/Movement/StepTimer.cpp:500:6:bool StepTimer::ScheduleCallback(Ticks)	8	static
+RepRapFirmware/src/Movement/StepTimer.cpp:509:6:void StepTimer::CancelCallbackFromIsr()	0	static
+RepRapFirmware/src/Movement/StepTimer.cpp:523:6:void StepTimer::CancelCallback()	8	static
+RepRapFirmware/src/Movement/StepTimer.cpp:530:17:static void StepTimer::Diagnostics(const StringRef&)	40	static
+RepRapFirmware/src/Movement/StepTimer.cpp:571:1:cpp)	8	static

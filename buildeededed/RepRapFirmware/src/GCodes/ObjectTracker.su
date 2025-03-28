@@ -1,0 +1,42 @@
+./RepRapFirmware/src/ObjectModel/ObjectModel.h:324:35:virtual ReadWriteLock* ObjectModel::GetObjectLock(unsigned int) const	0	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:24:3:static constexpr size_t ObjectTracker::<lambda(const ObjectModel*, const ObjectExplorationContext&)>::_FUN(const ObjectModel*, const ObjectExplorationContext&)	0	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:25:3:static ExpressionValue ObjectTracker::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	8	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:30:3:static constexpr size_t ObjectTracker::<lambda(const ObjectModel*, const ObjectExplorationContext&)>::_FUN(const ObjectModel*, const ObjectExplorationContext&)	0	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:41:1:virtual const ObjectModelArrayTableEntry* ObjectTracker::GetObjectModelArrayEntry(unsigned int) const	0	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:48:18:static ExpressionValue ObjectTracker::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	0	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:49:19:static ExpressionValue ObjectTracker::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	0	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:50:16:static ExpressionValue ObjectTracker::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	0	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:55:12:static ExpressionValue ObjectTracker::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	0	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:56:12:static ExpressionValue ObjectTracker::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	0	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:66:1:virtual const ObjectModelClassDescriptor* ObjectTracker::GetObjectModelClassDescriptor() const	0	static
+RepRapFirmware/src/GCodes/ObjectTracker.h:26:7:ObjectTracker::~ObjectTracker()	16	static
+RepRapFirmware/src/GCodes/ObjectTracker.h:26:7:virtual ObjectTracker::~ObjectTracker()	8	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:54:14:static ExpressionValue ObjectTracker::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	16	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:53:18:static ExpressionValue ObjectTracker::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	16	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:47:21:static ExpressionValue ObjectTracker::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	8	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:36:3:static constexpr size_t ObjectTracker::<lambda(const ObjectModel*, const ObjectExplorationContext&)>::_FUN(const ObjectModel*, const ObjectExplorationContext&)	0	static
+./RRFLibraries/src/RTOSIface/RTOSIface.h:479:2:ReadLocker::~ReadLocker()	8	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:81:6:void ObjectTracker::HandleM486T(unsigned int)	0	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:88:6:void ObjectTracker::UseM486Labelling()	0	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:113:6:bool ObjectTracker::CancelObject(unsigned int)	16	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:125:6:bool ObjectTracker::ResumeObject(unsigned int)	20	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:137:6:bool ObjectTracker::CheckObject(int)	8	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:147:6:void ObjectTracker::ListObjects(OutputBuffer*)	80	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:208:6:void ObjectDirectoryEntry::Init(const char*)	8	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:68:6:void ObjectTracker::Init()	16	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:215:6:bool ObjectDirectoryEntry::UpdateObjectCoordinates(const float*, AxesBitmap)	24	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:261:6:void ObjectDirectoryEntry::SetName(const char*)	0	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:269:6:void ObjectTracker::UpdateObjectCoordinates(int, const float*, AxesBitmap)	8	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:281:6:void ObjectTracker::CreateObject(unsigned int, const char*)	24	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:97:6:void ObjectTracker::SetM486Label(unsigned int, const char*)	24	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:296:8:size_t ObjectTracker::GetObjectNumber(const char*)	32	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:320:17:ExpressionValue ObjectTracker::GetXCoordinate(const ObjectExplorationContext&) const	24	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:31:3:static ExpressionValue ObjectTracker::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	8	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:326:17:ExpressionValue ObjectTracker::GetYCoordinate(const ObjectExplorationContext&) const	24	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:37:3:static ExpressionValue ObjectTracker::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	8	static
+./RRFLibraries/src/General/String.h:98:26:) [with unsigned int Len = 100]	20	static
+./RRFLibraries/src/General/String.h:107:26:) [with unsigned int Len = 100]	20	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:175:6:bool ObjectTracker::WriteObjectDirectory(FileStore*) const	144	static
+./RRFLibraries/src/General/String.h:98:26:) [with unsigned int Len = 20]	20	static
+./RRFLibraries/src/General/function_ref.h:66:45:) [with Callable = ObjectTracker::WriteObjectDirectory(FileStore*) const::<lambda(unsigned int, bool)>; RetType = bool; Params = {unsigned int, unsigned int}]	32	static
+RepRapFirmware/src/GCodes/ObjectTracker.cpp:330:1:cpp)	0	static

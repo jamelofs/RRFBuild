@@ -1,0 +1,4 @@
+CANlib/src/CanMessageFormats.cpp:17:8:size_t CanAdjustedLength(size_t)	0	static
+CANlib/src/CanMessageFormats.cpp:40:6:void CanMessageMovementLinear::DebugPrint() const	48	static
+CANlib/src/CanMessageFormats.cpp:51:6:void CanMessageGeneric::DebugPrint(const ParamDescriptor*) const	48	static
+CANlib/src/CanMessageFormats.cpp:98:1:cpp)	0	static

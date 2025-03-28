@@ -1,0 +1,41 @@
+./RepRapFirmware/src/ObjectModel/ObjectModel.h:324:35:virtual ReadWriteLock* ObjectModel::GetObjectLock(unsigned int) const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:126:15:virtual void Kinematics::SetCalibrationDefaults()	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:131:15:virtual bool Kinematics::WriteCalibrationParameters(FileStore*) const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:136:16:virtual float Kinematics::GetTiltCorrection(size_t) const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:151:21:virtual AxesBitmap Kinematics::AxesToHomeBeforeProbing() const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:157:21:virtual MotionType Kinematics::GetMotionType(size_t) const	0	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.h:38:13:virtual HomingMode FiveBarScaraKinematics::GetHomingMode() const	0	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:43:1:virtual const ObjectModelClassDescriptor* FiveBarScaraKinematics::GetObjectModelClassDescriptor() const	0	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:54:13:virtual const char* FiveBarScaraKinematics::GetName(bool) const	0	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:848:6:virtual void FiveBarScaraKinematics::GetAssumedInitialPosition(size_t, float*) const	0	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:861:12:virtual AxesBitmap FiveBarScaraKinematics::AxesAssumedHomed(AxesBitmap) const	0	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:872:12:virtual AxesBitmap FiveBarScaraKinematics::MustBeHomedAxes(AxesBitmap, bool) const	0	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:895:6:virtual bool FiveBarScaraKinematics::QueryTerminateHomingMove(size_t) const	0	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:936:12:virtual AxesBitmap FiveBarScaraKinematics::GetLinearAxes() const	0	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:941:12:virtual AxesBitmap FiveBarScaraKinematics::GetConnectedAxes(size_t) const	0	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.h:24:7:FiveBarScaraKinematics::~FiveBarScaraKinematics()	0	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:902:6:virtual void FiveBarScaraKinematics::OnHomingSwitchTriggered(size_t, bool, const float*, DDA&) const	16	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:884:12:virtual AxesBitmap FiveBarScaraKinematics::GetHomingFileName(AxesBitmap, AxesBitmap, size_t, const StringRef&) const	24	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:931:6:virtual bool FiveBarScaraKinematics::IsContinuousRotationAxis(size_t) const	0	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.h:24:7:virtual FiveBarScaraKinematics::~FiveBarScaraKinematics()	8	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:544:6:virtual bool FiveBarScaraKinematics::Configure(unsigned int, GCodeBuffer&, const StringRef&, bool&)	112	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:37:12:static ExpressionValue FiveBarScaraKinematics::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	8	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:47:1:FiveBarScaraKinematics::FiveBarScaraKinematics()	16	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:166:5:int FiveBarScaraKinematics::getQuadrant(float, float) const	0	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:175:6:bool FiveBarScaraKinematics::isCantilevered(int) const	0	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:181:7:float FiveBarScaraKinematics::getAbsoluteAngle(float, float, float, float) const	24	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:208:6:void FiveBarScaraKinematics::getIntersec(float*, float, float, float, float, float, float) const	0	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:246:6:void FiveBarScaraKinematics::getTheta(float*, float, float, float, float, float, float, Arm) const	72	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:63:6:void FiveBarScaraKinematics::getInverse(const float*) const	104	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:369:6:void FiveBarScaraKinematics::getXYFromAngle(float*, float, float, float, float) const	32	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:381:6:void FiveBarScaraKinematics::getForward(float*, float, float) const	64	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:773:6:virtual void FiveBarScaraKinematics::MotorStepsToCartesian(const int32_t*, const float*, size_t, size_t, float*) const	64	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:445:7:float FiveBarScaraKinematics::getAngle(float, float, float, float, float, float) const	32	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:456:7:float FiveBarScaraKinematics::getTurn(float, float, float, float, float, float) const	0	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:461:6:bool FiveBarScaraKinematics::isPointInsideDefinedPrintableArea(float, float) const	0	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:477:6:bool FiveBarScaraKinematics::constraintsOk(const float*) const	32	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:747:6:virtual bool FiveBarScaraKinematics::CartesianToMotorSteps(const float*, const float*, size_t, size_t, int32_t*, bool) const	40	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:730:21:virtual LimitPositionResult FiveBarScaraKinematics::LimitPosition(float*, const float*, size_t, AxesBitmap, bool, bool) const	32	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:832:6:virtual bool FiveBarScaraKinematics::IsReachable(float*, AxesBitmap) const	24	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:949:6:void FiveBarScaraKinematics::Recalc()	0	static
+RepRapFirmware/src/Movement/Kinematics/FiveBarScaraKinematics.cpp:954:1:cpp)	0	static

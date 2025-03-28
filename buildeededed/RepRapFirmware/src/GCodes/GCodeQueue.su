@@ -1,0 +1,14 @@
+RepRapFirmware/src/GCodes/GCodeQueue.cpp:165:8:virtual size_t GCodeQueue::BytesCached() const	0	static
+RepRapFirmware/src/GCodes/GCodeQueue.cpp:17:1:GCodeQueue::GCodeQueue()	16	static
+RepRapFirmware/src/GCodes/GCodeQueue.cpp:27:17:static bool GCodeQueue::ShouldQueueG10(GCodeBuffer&)	8	static
+RepRapFirmware/src/GCodes/GCodeQueue.cpp:34:17:static bool GCodeQueue::ShouldQueueMCode(GCodeBuffer&)	152	static
+RepRapFirmware/src/GCodes/GCodeQueue.cpp:171:6:bool GCodeQueue::IsIdle() const	0	static
+RepRapFirmware/src/GCodes/GCodeQueue.cpp:178:6:void GCodeQueue::PurgeEntries()	16	static
+RepRapFirmware/src/GCodes/GCodeQueue.cpp:209:6:void GCodeQueue::Clear()	0	static
+RepRapFirmware/src/GCodes/GCodeQueue.cpp:160:6:virtual void GCodeQueue::Reset()	0	static
+RepRapFirmware/src/GCodes/GCodeQueue.cpp:220:6:void GCodeQueue::Diagnostics(MessageType, unsigned int)	40	static
+RepRapFirmware/src/GCodes/GCodeQueue.cpp:245:6:void QueuedCode::AssignFrom(const GCodeBuffer&)	16	static
+RepRapFirmware/src/GCodes/GCodeQueue.cpp:106:6:bool GCodeQueue::QueueCode(const GCodeBuffer&)	16	static
+RepRapFirmware/src/GCodes/GCodeQueue.cpp:254:6:void QueuedCode::AssignTo(GCodeBuffer*)	4	static
+RepRapFirmware/src/GCodes/GCodeQueue.cpp:139:6:virtual bool GCodeQueue::FillBuffer(GCodeBuffer*)	16	static
+RepRapFirmware/src/GCodes/GCodeQueue.cpp:267:1:cpp)	0	static

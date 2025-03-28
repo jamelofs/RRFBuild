@@ -1,0 +1,8 @@
+RRFLibraries/src/General/NumericConverter.cpp:292:6:bool NumericConverter::FitsInInt32() const	0	static
+RRFLibraries/src/General/NumericConverter.cpp:298:6:bool NumericConverter::FitsInUint32() const	0	static
+RRFLibraries/src/General/NumericConverter.cpp:304:9:int32_t NumericConverter::GetInt32() const	0	static
+RRFLibraries/src/General/NumericConverter.cpp:310:10:uint32_t NumericConverter::GetUint32() const	0	static
+RRFLibraries/src/General/NumericConverter.cpp:335:7:float NumericConverter::GetFloat() const	56	static
+RRFLibraries/src/General/NumericConverter.cpp:373:14:unsigned int NumericConverter::GetDigitsAfterPoint() const	0	static
+RRFLibraries/src/General/function_ref.h:81:13:) const [with RetType = char; Params = {}]	0	static
+RRFLibraries/src/General/NumericConverter.cpp:29:6:bool NumericConverter::Accumulate(char, OptionsType, function_ref_noexcept<char() noexcept>)	40	static

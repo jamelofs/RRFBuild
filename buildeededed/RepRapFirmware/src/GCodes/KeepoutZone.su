@@ -1,0 +1,24 @@
+./RepRapFirmware/src/ObjectModel/ObjectModel.h:324:35:virtual ReadWriteLock* ObjectModel::GetObjectLock(unsigned int) const	0	static
+RepRapFirmware/src/GCodes/KeepoutZone.cpp:26:3:static constexpr size_t KeepoutZone::<lambda(const ObjectModel*, const ObjectExplorationContext&)>::_FUN(const ObjectModel*, const ObjectExplorationContext&)	0	static
+RepRapFirmware/src/GCodes/KeepoutZone.cpp:32:1:virtual const ObjectModelArrayTableEntry* KeepoutZone::GetObjectModelArrayEntry(unsigned int) const	0	static
+RepRapFirmware/src/GCodes/KeepoutZone.cpp:38:15:static ExpressionValue KeepoutZone::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	0	static
+RepRapFirmware/src/GCodes/KeepoutZone.cpp:39:15:static ExpressionValue KeepoutZone::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	0	static
+RepRapFirmware/src/GCodes/KeepoutZone.cpp:52:1:virtual const ObjectModelClassDescriptor* KeepoutZone::GetObjectModelClassDescriptor() const	0	static
+RepRapFirmware/src/GCodes/KeepoutZone.h:20:7:KeepoutZone::~KeepoutZone()	0	static
+RepRapFirmware/src/GCodes/KeepoutZone.cpp:42:12:static ExpressionValue KeepoutZone::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	16	static
+RepRapFirmware/src/GCodes/KeepoutZone.cpp:41:12:static ExpressionValue KeepoutZone::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	16	static
+RepRapFirmware/src/GCodes/KeepoutZone.h:20:7:virtual KeepoutZone::~KeepoutZone()	8	static
+RepRapFirmware/src/GCodes/KeepoutZone.cpp:27:3:static ExpressionValue KeepoutZone::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	16	static
+./RRFLibraries/src/General/Bitmap.h:340:24:bool Bitmap<T>::IterateWhile(function_ref_noexcept<bool(unsigned int, unsigned int) noexcept>) const [with T = long unsigned int]	32	static
+./RRFLibraries/src/General/function_ref.h:66:45:) [with Callable = KeepoutZone::DoesArcIntrude(const float*, const float*, float, float, const float*, float, AxesBitmap, AxesBitmap, bool, bool) const::<lambda(unsigned int, unsigned int)>; RetType = bool; Params = {unsigned int, unsigned int}]	0	static
+./RRFLibraries/src/General/function_ref.h:66:45:) [with Callable = KeepoutZone::DoesLineIntrude(const float*, const float*) const::<lambda(unsigned int, unsigned int)>; RetType = bool; Params = {unsigned int, unsigned int}]	0	static
+./RRFLibraries/src/General/function_ref.h:66:45:) [with Callable = KeepoutZone::Configure(GCodeBuffer&, const StringRef&)::<lambda(unsigned int, unsigned int)>; RetType = void; Params = {unsigned int, unsigned int}]	40	static
+RepRapFirmware/src/GCodes/KeepoutZone.cpp:54:13:GCodeResult KeepoutZone::Configure(GCodeBuffer&, const StringRef&)	64	static
+RepRapFirmware/src/GCodes/KeepoutZone.cpp:134:6:bool KeepoutZone::DoesLineIntrude(const float*, const float*) const	48	static
+RepRapFirmware/src/GCodes/KeepoutZone.cpp:206:1:ArcIntervals::ArcIntervals(float, float)	0	static
+RepRapFirmware/src/GCodes/KeepoutZone.cpp:233:6:bool ArcIntervals::AddRangeLimit(float, float)	24	static
+./RRFLibraries/src/General/function_ref.h:66:45:) [with Callable = KeepoutZone::DoesArcIntrude(const float*, const float*, float, float, const float*, float, AxesBitmap, AxesBitmap, bool, bool) const::<lambda(unsigned int, unsigned int)>; RetType = bool; Params = {unsigned int, unsigned int}]	32	static
+./RRFLibraries/src/General/function_ref.h:66:45:) [with Callable = KeepoutZone::DoesArcIntrude(const float*, const float*, float, float, const float*, float, AxesBitmap, AxesBitmap, bool, bool) const::<lambda(unsigned int, unsigned int)>; RetType = bool; Params = {unsigned int, unsigned int}]	32	static
+RepRapFirmware/src/GCodes/KeepoutZone.cpp:325:6:void ArcIntervals::DebugPrint(const char*) const	32	static
+RepRapFirmware/src/GCodes/KeepoutZone.cpp:337:6:bool KeepoutZone::DoesArcIntrude(const float*, const float*, float, float, const float*, float, AxesBitmap, AxesBitmap, bool, bool) const	160	static
+RepRapFirmware/src/GCodes/KeepoutZone.cpp:507:1:cpp)	0	static

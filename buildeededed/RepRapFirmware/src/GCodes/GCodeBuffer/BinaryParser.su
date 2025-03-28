@@ -1,0 +1,43 @@
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:720:6:void BinaryParser::CheckArrayLength(size_t)	24	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:19:1:BinaryParser::BinaryParser(GCodeBuffer&)	0	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:24:6:void BinaryParser::Init()	0	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:80:6:bool BinaryParser::Seen(char)	12	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:115:6:char BinaryParser::GetCommandLetter() const	0	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:120:6:bool BinaryParser::HasCommandNumber() const	0	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:125:5:int BinaryParser::GetCommandNumber() const	8	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:130:8:int8_t BinaryParser::GetCommandFraction() const	0	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:135:6:bool BinaryParser::ContainsExpression() const	0	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:152:7:float BinaryParser::GetFValue()	168	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:186:9:int32_t BinaryParser::GetIValue()	168	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:220:10:uint32_t BinaryParser::GetUIValue()	168	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:254:6:void BinaryParser::SetDriverIdFromBinary(DriverId&, uint32_t)	0	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:266:6:void BinaryParser::SetDriverIdFromFloat(DriverId&, float)	24	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:289:10:DriverId BinaryParser::GetDriverId()	184	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:326:6:void BinaryParser::GetIPAddress(IPAddress&)	32	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:380:6:void BinaryParser::GetMacAddress(MacAddress&)	32	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:444:6:void BinaryParser::GetPossiblyQuotedString(const StringRef&, bool)	176	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:432:6:void BinaryParser::GetUnprecedentedString(const StringRef&, bool)	16	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:575:17:ExpressionValue BinaryParser::GetExpression()	168	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:592:6:void BinaryParser::SetFinished()	0	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:598:14:FilePosition BinaryParser::GetFilePosition() const	0	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:33:6:void BinaryParser::Put(const uint32_t*, size_t)	16	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:603:6:void BinaryParser::SetFilePosition(FilePosition)	0	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:616:13:const char* BinaryParser::DataStart() const	0	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:621:8:size_t BinaryParser::DataLength() const	0	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:626:6:void BinaryParser::PrintCommand(const StringRef&) const	16	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:720:6:void BinaryParser::CheckArrayLength(size_t)	8	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:533:6:void BinaryParser::GetDriverIdArray(DriverId*, size_t&)	176	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:728:6:void BinaryParser::WriteParameters(const StringRef&, bool) const	56	dynamic
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:642:6:void BinaryParser::AppendFullCommand(const StringRef&) const	16	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:45:6:void BinaryParser::DecodeCommand()	296	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:859:6:void BinaryParser::AddParameters(VariableSet&, int)	208	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:929:16:GCodeException BinaryParser::ConstructParseException(const char*) const	8	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:934:16:GCodeException BinaryParser::ConstructParseException(const char*, const char*) const	16	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:939:16:GCodeException BinaryParser::ConstructParseException(const char*, uint32_t) const	16	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:663:27:void BinaryParser::GetArray(T*, size_t&) [with T = float]	16	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:478:6:void BinaryParser::GetFloatArray(float*, size_t&)	168	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:663:27:void BinaryParser::GetArray(T*, size_t&) [with T = long int]	16	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:496:6:void BinaryParser::GetIntArray(int32_t*, size_t&)	176	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:663:27:void BinaryParser::GetArray(T*, size_t&) [with T = long unsigned int]	16	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:514:6:void BinaryParser::GetUnsignedArray(uint32_t*, size_t&)	176	static
+RepRapFirmware/src/GCodes/GCodeBuffer/BinaryParser.cpp:942:1:cpp)	0	static

@@ -1,0 +1,10 @@
+FreeRTOS/src/event_groups.c:80:24:xEventGroupCreateStatic	16	static
+FreeRTOS/src/event_groups.c:306:13:xEventGroupWaitBits	32	static
+FreeRTOS/src/event_groups.c:466:13:xEventGroupClearBits	16	static
+FreeRTOS/src/event_groups.c:518:13:xEventGroupGetBitsFromISR	0	static
+FreeRTOS/src/event_groups.c:538:13:xEventGroupSetBits	24	static
+FreeRTOS/src/event_groups.c:179:13:xEventGroupSync	24	static
+FreeRTOS/src/event_groups.c:638:6:vEventGroupDelete	16	static
+FreeRTOS/src/event_groups.c:689:16:xEventGroupGetStaticBuffer	8	static
+FreeRTOS/src/event_groups.c:736:6:vEventGroupSetBitsCallback	0	static
+FreeRTOS/src/event_groups.c:752:6:vEventGroupClearBitsCallback	0	static

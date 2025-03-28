@@ -1,0 +1,2 @@
+CoreN2G/src/STM32/ccmram.cpp:15:7:void* CoreAllocCCMRAMPermanent(size_t, std::align_val_t)	0	static
+CoreN2G/src/STM32/ccmram.cpp:26:6:void CoreCCMRAMUsage(size_t&, size_t&, size_t&)	8	static

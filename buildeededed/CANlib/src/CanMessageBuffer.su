@@ -1,0 +1,7 @@
+./RRFLibraries/src/RTOSIface/RTOSIface.h:358:14:bool RTOSIface::LeaveTaskCriticalSection()	0	static
+CANlib/src/CanMessageBuffer.cpp:23:6:static void CanMessageBuffer::Init(unsigned int)	16	static
+CANlib/src/CanMessageBuffer.cpp:35:19:static CanMessageBuffer* CanMessageBuffer::Allocate()	8	static
+CANlib/src/CanMessageBuffer.cpp:56:19:static CanMessageBuffer* CanMessageBuffer::BlockingAllocate()	16	static
+CANlib/src/CanMessageBuffer.cpp:84:6:static void CanMessageBuffer::Free(CanMessageBuffer*&)	8	static
+CANlib/src/CanMessageBuffer.cpp:104:6:void CanMessageBuffer::DebugPrint(const char*)	40	static
+CANlib/src/CanMessageBuffer.cpp:107:1:cpp)	0	static

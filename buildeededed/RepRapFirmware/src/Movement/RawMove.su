@@ -1,0 +1,34 @@
+./RRFLibraries/src/General/function_ref.h:66:45:) [with Callable = MovementState::OwnedAxisCoordinatesUpdated(AxesBitmap)::<lambda(unsigned int, unsigned int)>; RetType = void; Params = {unsigned int, unsigned int}]	0	static
+RepRapFirmware/src/Movement/RawMove.cpp:18:6:void MovementState::SetDefaults(size_t)	0	static
+RepRapFirmware/src/Movement/RawMove.cpp:48:6:void MovementState::ClearMove()	8	static
+RepRapFirmware/src/Movement/RawMove.cpp:67:17:static void MovementState::GlobalInit(size_t)	16	static
+RepRapFirmware/src/Movement/RawMove.cpp:79:7:float MovementState::GetProportionDone() const	0	static
+RepRapFirmware/src/Movement/RawMove.cpp:85:6:void MovementState::Init(MovementSystemNumber)	16	static
+RepRapFirmware/src/Movement/RawMove.cpp:133:6:void MovementState::ResetLaser()	0	static
+RepRapFirmware/src/Movement/RawMove.cpp:143:6:void MovementState::ChangeExtrusionFactor(unsigned int, float)	0	static
+RepRapFirmware/src/Movement/RawMove.cpp:151:6:void MovementState::Diagnostics(MessageType)	24	static
+RepRapFirmware/src/Movement/RawMove.cpp:190:6:void MovementState::ResumeAfterPause()	0	static
+RepRapFirmware/src/Movement/RawMove.cpp:202:6:void MovementState::SelectTool(int, bool)	24	static
+RepRapFirmware/src/Movement/RawMove.cpp:217:25:ReadLockedPointer<Tool> MovementState::GetLockedCurrentTool() const	16	static
+RepRapFirmware/src/Movement/RawMove.cpp:224:25:ReadLockedPointer<Tool> MovementState::GetLockedCurrentOrDefaultTool() const	16	static
+RepRapFirmware/src/Movement/RawMove.cpp:231:5:int MovementState::GetCurrentToolNumber() const	0	static
+RepRapFirmware/src/Movement/RawMove.cpp:167:6:void MovementState::SavePosition(unsigned int, size_t, float, FilePosition)	16	static
+RepRapFirmware/src/Movement/RawMove.cpp:237:6:void MovementState::SetPreviousToolNumber()	0	static
+RepRapFirmware/src/Movement/RawMove.cpp:243:12:AxesBitmap MovementState::GetCurrentAxisMapping(unsigned int) const	0	static
+RepRapFirmware/src/Movement/RawMove.cpp:249:12:AxesBitmap MovementState::GetCurrentXAxes() const	0	static
+RepRapFirmware/src/Movement/RawMove.cpp:255:12:AxesBitmap MovementState::GetCurrentYAxes() const	0	static
+RepRapFirmware/src/Movement/RawMove.cpp:261:12:AxesBitmap MovementState::GetCurrentZAxes() const	0	static
+RepRapFirmware/src/Movement/RawMove.cpp:267:7:float MovementState::GetCurrentToolOffset(size_t) const	0	static
+RepRapFirmware/src/Movement/RawMove.cpp:273:6:void MovementState::StopPrinting(GCodeBuffer&)	0	static
+RepRapFirmware/src/Movement/RawMove.cpp:279:6:void MovementState::ResumePrinting(GCodeBuffer&)	16	static
+RepRapFirmware/src/Movement/RawMove.cpp:290:6:void MovementState::InitObjectCancellation()	0	static
+RepRapFirmware/src/Movement/RawMove.cpp:300:7:float MovementState::LiveCoordinate(unsigned int) const	16	static
+RepRapFirmware/src/Movement/RawMove.cpp:361:6:void MovementState::SaveOwnAxisCoordinates()	24	static
+RepRapFirmware/src/Movement/RawMove.cpp:319:6:void MovementState::ReleaseAxesAndExtruders(AxesBitmap)	16	static
+RepRapFirmware/src/Movement/RawMove.cpp:313:6:void MovementState::ReleaseAllOwnedAxesAndExtruders()	0	static
+RepRapFirmware/src/Movement/RawMove.cpp:328:6:void MovementState::ReleaseNonToolAxesAndExtruders()	16	static
+RepRapFirmware/src/Movement/RawMove.cpp:339:12:AxesBitmap MovementState::AllocateAxes(AxesBitmap, ParameterLettersBitmap)	24	static
+RepRapFirmware/src/Movement/RawMove.cpp:386:6:void MovementState::OwnedAxisCoordinatesUpdated(AxesBitmap)	24	static
+RepRapFirmware/src/Movement/RawMove.cpp:394:6:void MovementState::OwnedAxisCoordinateUpdated(size_t)	0	static
+RepRapFirmware/src/Movement/RawMove.cpp:399:6:void AsyncMove::SetDefaults()	0	static
+RepRapFirmware/src/Movement/RawMove.cpp:406:1:cpp)	0	static

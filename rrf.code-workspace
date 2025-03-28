@@ -77,7 +77,10 @@
 			"stdexcept": "cpp",
 			"streambuf": "cpp",
 			"typeinfo": "cpp",
-			"iostream": "cpp"
+			"iostream": "cpp",
+			"stm32h7xx_ll_gpio.h": "c",
+			"stm32mp1xx_ll_gpio.h": "c",
+			"pinconfig.h": "c"
 		},
 	}
 }

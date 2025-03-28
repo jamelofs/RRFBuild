@@ -1,0 +1,6 @@
+RepRapFirmware/src/GCodes/CollisionAvoider.cpp:16:1:CollisionAvoider::CollisionAvoider()	0	static
+RepRapFirmware/src/GCodes/CollisionAvoider.cpp:21:6:bool CollisionAvoider::IsValid() const	0	static
+RepRapFirmware/src/GCodes/CollisionAvoider.cpp:27:6:void CollisionAvoider::ResetPositions(const float*, AxesBitmap)	8	static
+RepRapFirmware/src/GCodes/CollisionAvoider.cpp:43:6:void CollisionAvoider::Set(int, int, float)	0	static
+RepRapFirmware/src/GCodes/CollisionAvoider.cpp:53:6:bool CollisionAvoider::UpdatePositions(const float*, AxesBitmap)	48	static
+RepRapFirmware/src/GCodes/CollisionAvoider.cpp:72:1:cpp)	0	static

@@ -1,0 +1,9 @@
+RepRapFirmware/src/Movement/HeightControl/HeightController.cpp:92:13:GCodeResult HeightController::StartHeightFollowing(GCodeBuffer&, const StringRef&)	40	static
+RepRapFirmware/src/Movement/HeightControl/HeightController.cpp:137:6:void HeightController::Stop()	0	static
+RepRapFirmware/src/Movement/HeightControl/HeightController.cpp:213:6:void HeightController::CalcDerivedValues()	0	static
+RepRapFirmware/src/Movement/HeightControl/HeightController.cpp:23:1:HeightController::HeightController()	8	static
+RepRapFirmware/src/Movement/HeightControl/HeightController.cpp:36:13:GCodeResult HeightController::Configure(GCodeBuffer&, const StringRef&)	80	static
+./RRFLibraries/src/General/SimpleMath.h:52:38:constexpr T constrain(T, T, T) [with T = float]	0	static
+RepRapFirmware/src/Movement/HeightControl/HeightController.cpp:142:19:void HeightController::RunTask()	72	static
+RepRapFirmware/src/Movement/HeightControl/HeightController.cpp:31:30:void HeightControllerTaskStart(void*)	8	static
+RepRapFirmware/src/Movement/HeightControl/HeightController.cpp:236:1:cpp)	0	static

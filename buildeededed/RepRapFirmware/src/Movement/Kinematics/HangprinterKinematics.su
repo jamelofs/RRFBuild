@@ -1,0 +1,65 @@
+./RepRapFirmware/src/ObjectModel/ObjectModel.h:324:35:virtual ReadWriteLock* ObjectModel::GetObjectLock(unsigned int) const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:121:15:virtual bool Kinematics::DoAutoCalibration(MovementSystemNumber, size_t, const RandomProbePointSet&, const StringRef&)	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:136:16:virtual float Kinematics::GetTiltCorrection(size_t) const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:151:21:virtual AxesBitmap Kinematics::AxesToHomeBeforeProbing() const	0	static
+RepRapFirmware/src/Movement/Kinematics/Kinematics.h:157:21:virtual MotionType Kinematics::GetMotionType(size_t) const	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.h:33:7:virtual bool HangprinterKinematics::SupportsAutoCalibration() const	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.h:41:13:virtual HomingMode HangprinterKinematics::GetHomingMode() const	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:43:3:static constexpr size_t HangprinterKinematics::<lambda(const ObjectModel*, const ObjectExplorationContext&)>::_FUN(const ObjectModel*, const ObjectExplorationContext&)	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:49:3:static constexpr size_t HangprinterKinematics::<lambda(const ObjectModel*, const ObjectExplorationContext&)>::_FUN(const ObjectModel*, const ObjectExplorationContext&)	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:50:3:static ExpressionValue HangprinterKinematics::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:56:1:virtual const ObjectModelArrayTableEntry* HangprinterKinematics::GetObjectModelArrayEntry(unsigned int) const	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:62:16:static ExpressionValue HangprinterKinematics::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:64:19:static ExpressionValue HangprinterKinematics::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:69:1:virtual const ObjectModelClassDescriptor* HangprinterKinematics::GetObjectModelClassDescriptor() const	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:128:21:float hyp3(const float*, const float*)	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:211:13:virtual const char* HangprinterKinematics::GetName(bool) const	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:449:13:bool isSameSide(const float*, const float*, const float*, const float*, const float*)	8	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:517:21:virtual LimitPositionResult HangprinterKinematics::LimitPosition(float*, const float*, size_t, AxesBitmap, bool, bool) const	8	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:555:6:virtual void HangprinterKinematics::GetAssumedInitialPosition(size_t, float*) const	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:574:6:virtual bool HangprinterKinematics::QueryTerminateHomingMove(size_t) const	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:581:6:virtual void HangprinterKinematics::OnHomingSwitchTriggered(size_t, bool, const float*, DDA&) const	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:587:12:virtual AxesBitmap HangprinterKinematics::AxesAssumedHomed(AxesBitmap) const	8	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:605:12:virtual AxesBitmap HangprinterKinematics::MustBeHomedAxes(AxesBitmap, bool) const	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:733:6:virtual bool HangprinterKinematics::WriteResumeSettings(FileStore*) const	0	static
+./RRFLibraries/src/Math/Matrix.h:26:51:FixedMatrix<float, 3, 4>::~FixedMatrix()	0	static
+./RRFLibraries/src/Math/Matrix.h:26:51:FixedMatrix<float, 3, 5>::~FixedMatrix()	0	static
+./RRFLibraries/src/Math/Matrix.h:33:5:T& FixedMatrix<T, ROWS, COLS>::operator()(size_t, size_t) [with T = float; unsigned int ROWS = 3; unsigned int COLS = 4]	0	static
+./RRFLibraries/src/Math/Matrix.h:33:5:T& FixedMatrix<T, ROWS, COLS>::operator()(size_t, size_t) [with T = float; unsigned int ROWS = 3; unsigned int COLS = 5]	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.h:22:7:HangprinterKinematics::~HangprinterKinematics()	0	static
+./RRFLibraries/src/Math/Matrix.h:29:9:size_t FixedMatrix<T, ROWS, COLS>::rows() const [with T = float; unsigned int ROWS = 3; unsigned int COLS = 5]	0	static
+./RRFLibraries/src/Math/Matrix.h:30:9:size_t FixedMatrix<T, ROWS, COLS>::cols() const [with T = float; unsigned int ROWS = 3; unsigned int COLS = 5]	0	static
+./RRFLibraries/src/Math/Matrix.h:39:11:const T& FixedMatrix<T, ROWS, COLS>::operator()(size_t, size_t) const [with T = float; unsigned int ROWS = 3; unsigned int COLS = 5]	0	static
+./RRFLibraries/src/Math/Matrix.h:29:9:size_t FixedMatrix<T, ROWS, COLS>::rows() const [with T = float; unsigned int ROWS = 3; unsigned int COLS = 4]	0	static
+./RRFLibraries/src/Math/Matrix.h:30:9:size_t FixedMatrix<T, ROWS, COLS>::cols() const [with T = float; unsigned int ROWS = 3; unsigned int COLS = 4]	0	static
+./RRFLibraries/src/Math/Matrix.h:39:11:const T& FixedMatrix<T, ROWS, COLS>::operator()(size_t, size_t) const [with T = float; unsigned int ROWS = 3; unsigned int COLS = 4]	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:566:12:virtual AxesBitmap HangprinterKinematics::GetHomingFileName(AxesBitmap, AxesBitmap, size_t, const StringRef&) const	8	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.h:22:7:virtual HangprinterKinematics::~HangprinterKinematics()	8	static
+./RRFLibraries/src/Math/Matrix.h:26:51:virtual FixedMatrix<float, 3, 4>::~FixedMatrix()	8	static
+./RRFLibraries/src/Math/Matrix.h:26:51:virtual FixedMatrix<float, 3, 5>::~FixedMatrix()	8	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:63:14:static ExpressionValue HangprinterKinematics::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	8	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:44:3:static ExpressionValue HangprinterKinematics::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	24	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:467:6:bool HangprinterKinematics::IsInsidePyramidSides(const float*) const	40	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:478:6:bool HangprinterKinematics::IsInsidePrismSides(const float*, unsigned int) const	56	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:494:6:virtual bool HangprinterKinematics::IsReachable(float*, AxesBitmap) const	24	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:792:6:void HangprinterKinematics::ForwardTransformTetrahedron(const float*, float*) const	288	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:912:6:void HangprinterKinematics::ForwardTransformQuadrilateralPyramid(const float*, float*) const	440	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:741:6:void HangprinterKinematics::ForwardTransform(const float*, float*) const	4	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:966:6:void HangprinterKinematics::PrintParameters(const StringRef&) const	48	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:1281:7:float HangprinterKinematics::SpringK(float) const	0	static
+./RRFLibraries/src/General/String.h:98:26:) [with unsigned int Len = 255]	20	static
+./RRFLibraries/src/General/String.h:107:26:) [with unsigned int Len = 255]	20	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:617:6:virtual bool HangprinterKinematics::WriteCalibrationParameters(FileStore*) const	312	static
+./RRFLibraries/src/Math/Matrix.h:88:50:bool FixedMatrix<T, ROWS, COLS>::GaussJordan(size_t, size_t) [with T = float; unsigned int ROWS = 3; unsigned int COLS = 5]	48	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:1307:6:void HangprinterKinematics::StaticForcesQuadrilateralPyramid(const float*, float*) const	432	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:1428:6:void HangprinterKinematics::StaticForcesTetrahedron(const float*, float*) const	120	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:1286:6:void HangprinterKinematics::StaticForces(const float*, float*) const	8	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:133:6:void HangprinterKinematics::Recalc()	56	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:80:6:void HangprinterKinematics::Init()	224	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:74:1:HangprinterKinematics::HangprinterKinematics()	16	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.h:35:7:virtual void HangprinterKinematics::SetCalibrationDefaults()	0	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:218:6:virtual bool HangprinterKinematics::Configure(unsigned int, GCodeBuffer&, const StringRef&, bool&)	80	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:356:6:virtual bool HangprinterKinematics::CartesianToMotorSteps(const float*, const float*, size_t, size_t, int32_t*, bool) const	32	dynamic
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:398:6:void HangprinterKinematics::flexDistances(const float*, const float*, float*) const	144	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:430:6:virtual void HangprinterKinematics::MotorStepsToCartesian(const int32_t*, const float*, size_t, size_t, float*) const	88	static
+RepRapFirmware/src/Movement/Kinematics/HangprinterKinematics.cpp:1525:1:cpp)	0	static

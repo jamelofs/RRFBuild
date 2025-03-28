@@ -1,0 +1,46 @@
+./RepRapFirmware/src/ObjectModel/ObjectModel.h:324:35:virtual ReadWriteLock* ObjectModel::GetObjectLock(unsigned int) const	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:32:3:static constexpr size_t GridDefinition::<lambda(const ObjectModel*, const ObjectExplorationContext&)>::_FUN(const ObjectModel*, const ObjectExplorationContext&)	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:55:1:virtual const ObjectModelArrayTableEntry* GridDefinition::GetObjectModelArrayEntry(unsigned int) const	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:61:13:static ExpressionValue GridDefinition::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:62:13:static ExpressionValue GridDefinition::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:63:13:static ExpressionValue GridDefinition::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:64:15:static ExpressionValue GridDefinition::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:65:16:static ExpressionValue GridDefinition::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:70:1:virtual const ObjectModelClassDescriptor* GridDefinition::GetObjectModelClassDescriptor() const	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.h:18:7:GridDefinition::~GridDefinition()	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:33:3:static ExpressionValue GridDefinition::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	16	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:45:3:static ExpressionValue GridDefinition::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	16	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:39:3:static ExpressionValue GridDefinition::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	16	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:51:3:static ExpressionValue GridDefinition::<lambda(const ObjectModel*, ObjectExplorationContext&)>::_FUN(const ObjectModel*, ObjectExplorationContext&)	16	static
+RepRapFirmware/src/Movement/BedProbing/Grid.h:18:7:virtual GridDefinition::~GridDefinition()	8	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:50:3:static constexpr size_t GridDefinition::<lambda(const ObjectModel*, const ObjectExplorationContext&)>::_FUN(const ObjectModel*, const ObjectExplorationContext&)	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:38:3:static constexpr size_t GridDefinition::<lambda(const ObjectModel*, const ObjectExplorationContext&)>::_FUN(const ObjectModel*, const ObjectExplorationContext&)	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:44:3:static constexpr size_t GridDefinition::<lambda(const ObjectModel*, const ObjectExplorationContext&)>::_FUN(const ObjectModel*, const ObjectExplorationContext&)	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:82:1:GridDefinition::GridDefinition()	8	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:113:6:void GridDefinition::CheckValidity(bool)	24	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:95:6:bool GridDefinition::Set(const char*, const float*, const float*, float, const float*)	16	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:152:6:bool GridDefinition::IsInRadius(float, float) const	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:158:6:void GridDefinition::PrintParameters(const StringRef&) const	112	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:165:6:void GridDefinition::WriteHeadingAndParameters(const StringRef&) const	88	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:172:16:static int GridDefinition::CheckHeading(const StringRef&)	16	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:185:6:bool GridDefinition::ReadParameters(const StringRef&, int)	32	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:289:6:void GridDefinition::PrintError(float, float, const StringRef&) const	8	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:355:14:unsigned int HeightMap::GetMinimumSegments(float, float) const	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:589:6:bool HeightMap::UseHeightMap(bool)	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:639:7:float HeightMap::InterpolateAxis0Axis1(size_t, size_t, float, float) const	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:610:7:float HeightMap::GetInterpolatedHeightError(float, float) const	32	static
+./RRFLibraries/src/General/Bitmap.h:426:31:void LargeBitmap<N>::ClearAll() [with unsigned int N = 441]	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:321:1:HeightMap::HeightMap()	16	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:330:6:void HeightMap::ClearGridHeights()	8	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:323:6:void HeightMap::SetGrid(const GridDefinition&)	0	static
+./RRFLibraries/src/General/Bitmap.h:395:7:void LargeBitmap<N>::SetBit(unsigned int) [with unsigned int N = 441]	8	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:344:6:void HeightMap::SetGridHeight(size_t, float)	8	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:339:6:void HeightMap::SetGridHeight(size_t, size_t, float)	0	static
+./RRFLibraries/src/General/Bitmap.h:411:7:bool LargeBitmap<N>::IsBitSet(unsigned int) const [with unsigned int N = 441]	0	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:558:14:unsigned int HeightMap::GetStatistics(Deviation&, float&, float&) const	72	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:596:6:bool HeightMap::CanProbePoint(size_t, size_t) const	16	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:754:6:bool HeightMap::InterpolateMissingPoint(size_t, size_t, float&) const	56	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:653:6:void HeightMap::ExtrapolateMissing()	88	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:433:6:bool HeightMap::LoadFromFile(FileStore*, const char*, const StringRef&, bool)	464	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:369:6:bool HeightMap::SaveToFile(FileStore*, const char*, float)	656	static
+RepRapFirmware/src/Movement/BedProbing/Grid.cpp:808:1:cpp)	0	static
