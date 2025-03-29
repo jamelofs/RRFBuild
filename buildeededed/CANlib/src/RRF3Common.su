@@ -1,3 +1,0 @@
-./RRFLibraries/src/General/function_ref.h:66:45:) [with Callable = StandardDriverStatus::AppendText(const StringRef&, unsigned int) const::<lambda(unsigned int, unsigned int)>; RetType = void; Params = {unsigned int, unsigned int}]	16	static
-CANlib/src/RRF3Common.cpp:13:6:void StandardDriverStatus::AppendText(const StringRef&, unsigned int) const	32	static
-CANlib/src/RRF3Common.cpp:36:1:cpp)	0	static

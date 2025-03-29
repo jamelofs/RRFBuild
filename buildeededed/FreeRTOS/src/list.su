@@ -1,5 +1,0 @@
-FreeRTOS/src/list.c:49:6:vListInitialise	0	static
-FreeRTOS/src/list.c:89:6:vListInitialiseItem	0	static
-FreeRTOS/src/list.c:105:6:vListInsertEnd	0	static
-FreeRTOS/src/list.c:139:6:vListInsert	12	static
-FreeRTOS/src/list.c:214:13:uxListRemove	0	static

@@ -1,8 +1,0 @@
-RepRapFirmware/src/Storage/EmbeddedFiles.cpp:100:13:bool FindNextFile(FileInfo&)	40	static
-RepRapFirmware/src/Storage/EmbeddedFiles.cpp:76:6:bool EmbeddedFiles::DirectoryExists(const StringRef&)	16	static
-RepRapFirmware/src/Storage/EmbeddedFiles.cpp:135:6:bool EmbeddedFiles::FindFirst(const char*, FileInfo&)	16	static
-RepRapFirmware/src/Storage/EmbeddedFiles.cpp:171:6:bool EmbeddedFiles::FindNext(FileInfo&)	0	static
-RepRapFirmware/src/Storage/EmbeddedFiles.cpp:182:14:FilePosition EmbeddedFiles::Length(int32_t)	0	static
-RepRapFirmware/src/Storage/EmbeddedFiles.cpp:190:11:FileIndex EmbeddedFiles::OpenFile(const char*)	24	static
-RepRapFirmware/src/Storage/EmbeddedFiles.cpp:207:5:int EmbeddedFiles::Read(FileIndex, FilePosition, char*, size_t)	16	static
-RepRapFirmware/src/Storage/EmbeddedFiles.cpp:224:1:cpp)	0	static

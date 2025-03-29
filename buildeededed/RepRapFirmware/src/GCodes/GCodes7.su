@@ -1,5 +1,0 @@
-./RepRapFirmware/src/Platform/MessageBox.h:16:8:MessageBoxLimits::~MessageBoxLimits()	8	static
-RepRapFirmware/src/GCodes/GCodes7.cpp:14:13:GCodeResult GCodes::DoMessageBox(GCodeBuffer&, const StringRef&)	488	static
-RepRapFirmware/src/GCodes/GCodes7.cpp:149:6:void GCodes::MessageBoxClosed(bool, bool, uint32_t, ExpressionValue)	40	static
-RepRapFirmware/src/GCodes/GCodes7.cpp:116:13:GCodeResult GCodes::AcknowledgeMessage(GCodeBuffer&, const StringRef&)	56	static
-RepRapFirmware/src/GCodes/GCodes7.cpp:162:1:cpp)	0	static

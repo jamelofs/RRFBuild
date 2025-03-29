@@ -80,7 +80,21 @@
 			"iostream": "cpp",
 			"stm32h7xx_ll_gpio.h": "c",
 			"stm32mp1xx_ll_gpio.h": "c",
-			"pinconfig.h": "c"
+			"pinconfig.h": "c",
+			"stm32mp1xx.h": "c",
+			"stm32mp157fxx_cm4.h": "c",
+			"system_stm32mp1xx.h": "c",
+			"stm32mp1xx_hal.h": "c",
+			"stm32mp1xx_hal_conf.h": "c",
+			"stm32mp1xx_hal_conf_default.h": "c",
+			"hal_conf_extra.h": "c",
+			"stm32h7xx_ll_rcc.h": "c",
+			"stm32mp1xx_hal_crc.h": "c",
+			"list": "cpp",
+			"xhash": "cpp",
+			"xstring": "cpp",
+			"xutility": "cpp",
+			"stm32mp1xx_hal_sai.h": "c"
 		},
 	}
 }

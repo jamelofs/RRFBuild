@@ -1,8 +1,0 @@
-RepRapFirmware/src/libc/nano-mallocr.c:258:14:sbrk_aligned	16	static
-C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/arm-none-eabi/include/malloc.h:37:14:malloc	24	static
-C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/arm-none-eabi/include/malloc.h:45:13:free	8	static
-C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/arm-none-eabi/include/malloc.h:166:13:cfree	0	static
-C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/arm-none-eabi/include/malloc.h:61:14:calloc	16	static
-C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/arm-none-eabi/include/malloc.h:77:24:mallinfo	16	static
-C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/arm-none-eabi/include/malloc.h:69:14:memalign	16	static
-C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/arm-none-eabi/include/malloc.h:42:14:_malloc_r	0	static
