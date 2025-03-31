@@ -10,8 +10,29 @@
 {
     "version": "0.2.0",
     "configurations": [
-
-
+        {
+            "name": "Debug STM32MP157",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "cwd": "${workspaceRoot}",
+            "executable": "build/rrf_mp157.elf",
+            "gdbPath": "arm-none-eabi-gdb.exe",
+            "numberOfProcessors": 2,
+            "configFiles": [
+                "interface/stlink.cfg",
+                "${workspaceRoot}\\.vscode\\stm32mp15x.cfg"
+            ],
+            "gdbTarget": "extended-remote localhost:50001",
+            "overrideLaunchCommands": [
+                "target extended-remote localhost:50001",
+                "monitor stm32mp15x.cm4 arp_halt",
+                "monitor targets",
+                "load"
+            ],
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "raw"
+        },
         {
             "cwd": "${workspaceRoot}",
             "executable": "build/firmware.elf",
